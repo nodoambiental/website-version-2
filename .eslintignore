@@ -1,0 +1,12 @@
+node_modules
+.vscode
+coverage
+.git
+babel.config.js
+.gitignore
+LICENSE
+README.md
+.cache
+.prettierrc
+.editorconfig
+gatsby-*.js

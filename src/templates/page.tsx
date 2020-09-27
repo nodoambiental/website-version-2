@@ -1,8 +1,9 @@
-import * as React from 'react'
 import { graphql } from 'gatsby'
-
-import Page from '../components/Page'
+// ? Dunno why it says React namespace is hoisted
+// eslint-disable-next-line no-use-before-define
+import * as React from 'react'
 import Container from '../components/Container'
+import Page from '../components/Page'
 import IndexLayout from '../layouts'
 
 interface PageTemplateProps {
