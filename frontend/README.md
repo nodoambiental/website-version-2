@@ -1,44 +1,13 @@
-<p align="center">
-  <a href="https://www.nodoambiental.org">
-    <img alt="Nodo Ambiental" src="https://nodoambiental.org/assets/images/logos/logo_navigation.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Sitio Web de Fundación Nodo Ambiental
-</h1>
+# gatsby-starter-typescript
+The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/).
 
-## 🪐 Acerca de
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
-##### _To Do_ (Info del sitio y la ong)
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-starter-typescript https://github.com/haysclark/gatsby-starter-typescript
+```
 
-## 🔧 Replicabilidad
+## Deploy
 
-##### _To Do_ (Objetivos de replicabilidad del sitio)
-
-## 🔀 Roadmap
-
-##### _To Do_ (SVG e info del roadmap y los hitos)
-
-## 🚀 Lista de características
-
-- Preprocesamiento previo de todo lo posible en un sitio estático para ser servido desde un bucket S3
-- Estilos flexibles y poderosos para acomodar y modernizar la página como se desee, minimizando el tiempo de desarrollo
-- Sistema flexible y extensible que minimize el tiempo de desarrollo de características nuevas que se requieran en un futuro
-- Sistema de compilación automática tanto para archivos modificables por los editores como para el sitio completo
-- Integración con Git para proveer acceso de más bajo nivel a las partes modificables por los editores, y facilitar el trabajo en equipo
-- Health Endpoint y monitoreo con un panel de Grafana para evaluar el estado y evolución del sitio, así como para tener registros de lo que pueda suceder en distintos aspectos del sitio cuando algo no funcione de manera correcta
-- Integración con Mattermost y/o un sistema de administración de proyectos, de manera de mantener al equipo informado y al tanto del trabajo que se realice y los eventos que ocurran
-- Estructura de datos limpia, extensible y diseñada de manera adecuada para facilitar el desarrollo futuro e integración con sistemas externos
-- Sistema de visualización web nativa de datos, con la presentación adecuada e interactividad necesaria para proveer de mayor profundidad y accesibilidad a lo que haga la organización
-- Sistema de roles para limitar el acceso de editores, con el propósito de prevenir que rompan algo sin querer, así como para otorgar distintos poderes según el rol o jerarquía que corresponda
-- Sistema de precompilación basado en MathJax que permite incluir fórmulas y fragmentos de código LaTeX, con tal de poder exhibir con mayor detalle los métodos utilizados para realizar análisis, y poder mostrar aspectos de los datos de manera corercta
-- Sistema de presentación de tablas de datos crudos, para ofrecer los datasets utilizados en los análisis de manera directa, accesible, que permita búsquedas y discriminación, de manera que se facilita la replicabilidad o extensibilidad de los análisis realizados
-- Objetivo: minimizar todo lo posible el tamaño final de la página para los receptores, de manera que cargue más rápido y podamos tener un mayor impacto
-
-## 🧱 Arquitectura del sitio
-
-##### _To Do_ (SVG y descripciones de cómo fue diseñado el sitio)
-
-## ❤️ Créditos
-
-Built with [Gatsby](https://www.gatsbyjs.org/) - the blazing-fast static site generator for [React](https://facebook.github.io/react/).
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haysclark/gatsby-starter-typescript)
