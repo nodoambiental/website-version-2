@@ -1,0 +1,17 @@
+{   "[typescript]": {
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  },
+  "[typescriptreact]": {
+      "editor.formatOnType": true,
+      "editor.formatOnSave": true,
+  },
+  "eslint.validate": [
+      "typescript",
+      "typescriptreact"
+    ],
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "jest.showCoverageOnLoad": true,
+}
